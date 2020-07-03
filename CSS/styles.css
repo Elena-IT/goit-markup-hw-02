@@ -1,0 +1,54 @@
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+.nav-link-item {
+  list-style: none;
+  text-decoration: none;
+}
+
+.contact-list-item {
+  list-style: none;
+  text-decoration: none;
+}
+.contact-data {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.contact-data:hover,
+.contact-data:focus {
+  color: #2196f3;
+
+.hero {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+.button { 
+text-transform: uppercase;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+.button:hover,
+.button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
