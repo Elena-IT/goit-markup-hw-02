@@ -1,3 +1,12 @@
+.hero-heading {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #ffffff;
+}
 .nav-link {
   font-family: Roboto;
   font-style: normal;
@@ -32,15 +41,7 @@ letter-spacing: 0.02em;
 .contact-data:focus {
   color: #2196f3;
 
-.hero {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #ffffff;
-}
+
 
 .button:hover,
 .button:focus {
