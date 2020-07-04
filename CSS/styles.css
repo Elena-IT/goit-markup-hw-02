@@ -1,3 +1,9 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  add-text-color: {color:#757575};
+}
+.logo {font-family: 'Roboto', sans-serif;}
 .hero-heading{
 font-weight: 900;
 font-size: 44px;
@@ -8,55 +14,84 @@ text-transform: uppercase;
 color: #ffffff;
 }
 .nav-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+color: #2196f3;
 }
 .nav-link-item {
-  list-style: none;
-  text-decoration: none;
+list-style: none;
+text-decoration: none;
 }
 
 .contact-list-item {
-  list-style: none;
-  text-decoration: none;
+list-style: none;
+text-decoration: none;
 }
 .contact-data {
-  list-style: none;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
+list-style: none;
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
 .contact-data:hover,
 .contact-data:focus {
-  color: #2196f3;
-
-
+color: #2196f3;
 
 .button:hover,
 .button:focus {
-    background: #2196F3;
-    color: #FFFFFF;
-    text-transform: uppercase;
+background: #2196F3;
+color: #FFFFFF;
+text-transform: uppercase;
 letter-spacing: 0.06em;
 }
 
 .sub-heading {
-font-family: 'Roboto', sans-serif;
 font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 color: #212121;}
+
+.abt-img {
+list-style: none;
+text-decoration: none;
+}
+
+.abt-text{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+color: var (--add-text-color);
+}
+
+.activity-header {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.activity-item{
+position: absolute;
+width: 370px;
+height: 70px;
+left: 215px;
+top: 1435px;
+background: rgba(47, 48, 58, 0.8);
+}
+.activity-item:hover,
+.activity-item:focus{
+ color: rgba(47, 48, 58, 0.8);
+
