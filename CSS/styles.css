@@ -71,7 +71,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.72;
 letter-spacing: 0.03em;
-color: var (--add-text-color);
+color: #757575;
 }
 
 .activity-header {
