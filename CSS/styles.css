@@ -66,11 +66,8 @@
   }
   .abt-img {
     list-style: none;
-    text-decoration: none;
   }
-  .about-image-icon {
-    list-style: none;
-}
+  
   .about-us-section {
     list-style: none;
     text-decoration: none;
@@ -205,3 +202,13 @@ letter-spacing: 0.03em;
 color: #757575;
  }
 
+.product-text {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background: rgba(33, 150, 243, 0.9);
+}
