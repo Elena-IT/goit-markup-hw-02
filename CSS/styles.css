@@ -64,10 +64,12 @@
     text-transform: uppercase;
     color: #212121;
   }
-  .abt-img {
+  .about-img {
     list-style: none;
   }
-  
+  .about-image-icon {
+   list-style: none; 
+  }
   .about-us-section {
     list-style: none;
     text-decoration: none;
