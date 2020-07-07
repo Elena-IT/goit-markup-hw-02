@@ -32,6 +32,16 @@
   text-decoration: none;
 }
 
+.nav-link-text {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;  
+}
+.current {
+  color:#2196F3;
+}
 .contact-list-item {
   list-style: none;
   text-decoration: none;
@@ -43,6 +53,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #757575;
 }
 .contact-data:hover,
 .contact-data:focus {
@@ -54,6 +65,17 @@
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.06em;
+  }
+  .hero-button-text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
   }
 
   .sub-heading {
@@ -165,6 +187,23 @@ color: #212121;
   .products-button {
   list-style: none;
   }
+
+  .address-div {
+  background: #2F303A;
+  }
+  .address-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  }
+
+  .address-item-link {
+   list-style: none;
+   text-decoration: none
+  }
   
   .products-button:hover,
   .products-button:focus {
@@ -188,6 +227,7 @@ color: #212121;
  }
  .product-link {
  text-decoration: none;
+ 
  }
  .product-header {
 font-weight: bold;
